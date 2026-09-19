@@ -21,5 +21,5 @@ def register():
 
         # write the list
         with open("user.json", "w") as file:
-            json.dump(new_user, file, indent=3)
+            json.dump(data, file, indent=3)
         

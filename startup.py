@@ -11,6 +11,6 @@ def startup():
     """)
     input("                Press ENTER to continue...")
     print("1. Login")
-    print("2. Register")
-    print()
-    print("Enter the required num: ")
+    print("2. Register \n")
+    choice=int(input("Enter the required num: "))
+    return choice

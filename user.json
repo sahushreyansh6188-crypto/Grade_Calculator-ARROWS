@@ -1,4 +1,21 @@
 {
-   "username": "Mridul",
-   "password": "abc123"
+   "users": [
+      {
+         "username": "admin",
+         "password": "pwd"
+      },
+      {
+         "username": "admin",
+         "password": "admin",
+         "marks": {
+            "python": 7.0,
+            "web": 90.0,
+            "java": 89.0,
+            "Prompt": 70.0,
+            "Math": 89.0
+         },
+         "average": 69.0,
+         "grade": "C"
+      }
+   ]
 }
