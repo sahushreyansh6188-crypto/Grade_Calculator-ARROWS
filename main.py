@@ -1,10 +1,12 @@
 import startup as st
 import register as rt
+import login as lt
 
 choice = st.startup()
 
 if choice == 1:
-    #login page
+    lt.login()
+    
     pass
 elif choice == 2:
     rt.register()
